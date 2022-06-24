@@ -42,9 +42,7 @@ public class Main {
                 } catch (IOException e) {
                     System.out.println("throws Exception //т.к. числа должны быть от 1 до 10 включительно");
                 }
-            } else {
-                System.out.println(operations(a, b, op));
-            }
+            } 
         } else {
             try {
                 a = convertRomanToInt(words[0].trim());
